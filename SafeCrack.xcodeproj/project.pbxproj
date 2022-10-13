@@ -57,9 +57,8 @@
 		2FA07A5228F741AA004A0A00 /* SafeCrack Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				2FA07A5328F741AA004A0A00 /* SafeCrackApp.swift */,
-				2FA07A5528F741AA004A0A00 /* ContentView.swift */,
-				2FA07A5728F741AB004A0A00 /* Assets.xcassets */,
+				2FA07A8528F86A3F004A0A00 /* App */,
+				2FA07A8628F86A45004A0A00 /* UI */,
 				2FA07A5928F741AB004A0A00 /* Preview Content */,
 			);
 			path = "SafeCrack Watch App";
@@ -71,6 +70,23 @@
 				2FA07A5A28F741AB004A0A00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FA07A8528F86A3F004A0A00 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2FA07A5328F741AA004A0A00 /* SafeCrackApp.swift */,
+				2FA07A5728F741AB004A0A00 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2FA07A8628F86A45004A0A00 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2FA07A5528F741AA004A0A00 /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
